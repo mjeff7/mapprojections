@@ -1,10 +1,10 @@
-# <Project Title>
+# Map Projections
 
-<Insert short description of the project>.
-Try it live [here]().
+Show locations and sizes of meteorite landings around the world on an interactive map in a variety of map projections.
+- Drag the map to recenter the projection.
+- Use the scroll wheel to zoom.
+- Mouse over landings for more information.
 
-This project is part of the FreeCodeCamp curriculum and completes the [*<Replace with project name and link>* project]().
+Try it live [here](https://mjeff7.github.io/mapprojections/).
 
-## Project layout
-
-<Optionally include details about the layout and other good to know things.>
+This project is part of the FreeCodeCamp curriculum and completes the [*Map Data Across the Globe* project](https://www.freecodecamp.org/challenges/map-data-across-the-globe).
