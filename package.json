@@ -1,5 +1,5 @@
 {
-  "name": "codepen_project",
+  "name": "data_visualization_5_map",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,5 +11,6 @@
     "buildGHPages": "git checkout gh-pages; git merge master -m 'Automerge'; yarn build; git add -f dist; git commit -m 'Update build'",
     "deploy": "git subtree push --prefix dist/ origin gh-pages",
     "redeploy": "yarn buildGHPages && yarn deploy"
-  }
+  },
+  "description": "View geographic data on interactive maps in various projections"
 }
