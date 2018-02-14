@@ -14,6 +14,7 @@
   },
   "description": "View geographic data on interactive maps in various projections",
   "devDependencies": {
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.0.0-beta.5.2"
   }
 }
