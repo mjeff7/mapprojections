@@ -1,0 +1,89 @@
+body, #controlPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  //border: 1px solid black;
+  max-width: 100vw;
+  max-height: 80vh;
+  margin-top: 20px;
+  //position: absolute;
+  //top: 100px;
+  //left: 100px;
+}
+
+#projections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  button {
+    margin: 10px;
+  }
+}
+
+.background {
+  fill: lightblue;
+}
+
+.land {
+  fill: grey;
+  
+  &:hover {
+    //fill: yellow;
+  }
+}
+
+.borders {
+  fill: none;
+  stroke: white;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+}
+
+.tooltip {
+  //display: none;
+  pointer-events: none;
+  position: absolute;
+  background: rgba(8,8,8,0.9);
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+  opacity: 0;
+  
+  .Name {
+    text-align: center;
+    .value {
+      font-variant: small-caps;
+      font-size: 200%;
+      color: yellow;
+    }
+    .label { display: none; }
+  }
+
+  .label {
+    &:after { content: ":"; }
+    color: lightgrey;
+  }
+  
+  .value {
+    color: lightblue;
+  }
+}
+
+.meteor {
+  fill: brown;
+  stroke: black;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  //&:hover { fill: pink; }
+  //opacity: 0.8;
+}
+
+.sphere {
+  fill: blue;
+  //stroke: green;
+  //stroke-width: 5px;
+}
