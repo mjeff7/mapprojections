@@ -12,5 +12,8 @@
     "deploy": "git subtree push --prefix dist/ origin gh-pages",
     "redeploy": "yarn buildGHPages && yarn deploy"
   },
-  "description": "View geographic data on interactive maps in various projections"
+  "description": "View geographic data on interactive maps in various projections",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
 }
